@@ -1,0 +1,204 @@
+body{
+    scroll-behavior: smooth;
+}
+.navbar-brand img{
+    width: 80px;
+}
+.navbar{
+    background: rgba(56, 56, 56, 0.336);
+    z-index: 5;
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.123),rgba(2, 2, 2, 0.226)), url(board.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -5;
+}
+.navbar-toggler {
+    background: rgba(255, 255, 255, 0.219);
+}
+.navbar-nav .nav-link{
+    color: rgb(180, 192, 202);   
+    transition: .3s; 
+    text-shadow: rgb(235, 235, 236) 1px 1px 20px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover{
+    color: aliceblue;
+}
+.home-sec-cont{ height: 90vh;}
+.home-sec h1{
+    background: rgba(17, 17, 17, 0.219);
+    font-family:forte,cursive;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.521);
+    border-radius: 0 5px 0 10px; 
+    transition: .4s;  
+}
+.home-sec h1:hover{background: rgba(255, 255, 255, 0.521); color: rgba(17, 17, 17, 0.589);}
+.home-sec .h-b{
+    color: antiquewhite;
+    background-color: rgba(19, 20, 20, 0.164);
+    border-color: antiquewhite;
+    transition: .4s;
+}
+.home-sec .h-b:hover{
+    color: rgb(58, 55, 52);
+    background: antiquewhite;
+}
+.h-b i{transition: .4s;}
+.h-b:hover .fa-play{color: rgb(111, 176, 236);}
+.h-b:hover .fa-youtube{color: rgb(255, 0, 0);}
+
+/* services-start */
+    .sec-title h3{
+        color: rgb(79, 82, 82);
+        font-size: 30px;
+        text-shadow: #000 2px 2px 20px;
+    } 
+    .icon-style{
+        background: rgb(34, 32, 32);
+        color: antiquewhite;
+        transition: .4s;
+        width: 80px;
+        height: 80px;
+    }
+    .div-ser h5{
+        font-size: 35px;
+        color: rgb(230, 225, 224);
+        transition: .4s;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .div-ser{
+        background: rgb(161, 159, 159);
+        border-radius: 5px;
+        transition: .4s;
+    }
+    .div-ser:hover{
+        transform: scale(1.04);
+        box-shadow: 1px 1px 5px black;
+        background: none;
+        border: 2px solid rgb(124, 122, 122) ;
+    }
+    .div-ser:hover h5{color: #000;}
+    .div-ser:hover .icon-style{
+         color: rgb(87, 85, 85); 
+         background: #fff;
+         transform: translateY(-40px);
+        box-shadow: 0 -2px 5px #000;}
+    .div-ser p{color: rgb(44, 42, 42); font-family:Gabriola; font-size: 18px; transition: .4s;} 
+    .div-ser:hover p{ color: rgb(138, 128, 128);}
+/* services-end */
+#about-me{
+    background: rgb(77, 76, 78);
+    z-index: -5;
+}
+.secm-title h3{
+    color: rgb(247, 247, 247);
+    font-size: 30px;
+    text-shadow: rgb(205, 212, 212) 2px 2px 20px;
+} 
+.fir-ist{
+    background: rgb(192, 191, 191);
+    color: rgb(54, 53, 53);
+}
+.fir-con h4{
+    color: antiquewhite;
+    font-size: 30px;
+}
+.fir-con p{
+    color: rgb(189, 184, 184);
+}
+.fir-con p span{ color: #fff; font-weight: 700; padding-right: 5px;}
+.fir-con p a{ color: rgb(189, 189, 189); transition: .3s;}
+.fir-con p a:hover{ color: rgb(195, 205, 248); }
+.fir-con .edu-n{ margin-top: 15px; margin-bottom: 0; font-size: 20px; }
+.fir-con .edu-f{ margin-top: -2px; margin-bottom: 0; font-size: 12px;}
+.fir-con table td{ color: antiquewhite; padding: 5px; font-size: 18px;}
+/* project title start */
+#project-sec{
+    background: rgb(185, 224, 236);
+    z-index: -5;
+}
+.secp-title h3{
+    color: rgb(51, 49, 49);
+    background: rgba(255, 255, 255, 0.459);
+    padding: 20px;
+    font-size: 30px;
+    text-shadow: rgb(99, 95, 98) 2px 2px 20px;
+}
+#project-sec .row{ padding: 4% 10%;}
+.card{ background: rgb(221, 219, 219);
+    padding: 15px;
+    margin: 5px;
+    margin-top: 15px;
+    border: 5px solid rgb(131, 130, 130);
+    transition:.3s;
+}
+.card:hover{
+    transform: scale(1.05);
+    margin-top: 35px;
+    margin-bottom: 25px;
+    box-shadow: #000 5px 5px 15px;
+}
+.card img{
+    padding: 10px;
+}
+.card h3{
+    color: rgb(77, 75, 75);
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: rgb(19, 17, 17) 1px 5px 30px;
+}
+.card p{
+    font-size: 15px;
+    color: rgb(58, 59, 59);
+}
+/* project title end */
+/* team-sec-start */ 
+#team-sec{
+    background: rgb(60, 119, 209);
+}
+.sect-title{
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.459);
+    padding: 5px;
+    font-size: 30px;
+    text-shadow: rgb(0, 0, 0) 2px 2px 20px;
+}
+#team-sec{
+    background: rgba(47, 100, 160, 0.418);
+    padding: 30px 00;
+}
+.carousel-item{
+    padding: 10% 5%;
+    font-family:Gabriola;
+    font-size: 20px;
+    color: rgb(28, 30, 32);
+}
+.carousel-item img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+ /* team-sec-end */
+ /* contact-sec-start */
+ #contact-sec{
+    background: rgb(151, 152, 240);
+    z-index: -5;
+ }
+ .secc-title{
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.459);
+    padding: 5px;
+    font-size: 30px;
+    text-shadow: rgb(0, 0, 0) 2px 2px 20px;
+ }
+ #contact-sec form{
+    padding: 4% 10%;
+ }
+ /* contact-sec-end */
